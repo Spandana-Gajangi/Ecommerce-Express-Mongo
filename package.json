@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce_emjs",
+  "version": "1.0.0",
+  "description": "RESTful API(using Express) with Node.js including exceptional handling for an",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Spandana Gajangi <spandanagajangi96@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  }
+}

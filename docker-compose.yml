@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  mongo:
+    image: 'mongo'
+    container_name: mongo_spandana
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: spandana
+      MONGO_INITDB_ROOT_PASSWORD: spandana
+      MONGO_INITDB_DATABASE: ecommerce
+    ports:
+      - 27017:27017
